@@ -1,7 +1,10 @@
 import Counter from './components/Counter'
 import Footer from './components/Footer'
+import LogOnMount from './components/LogOnMount'
+import NameForm from './components/NameForm'
 import Navbar from './components/Navbar'
 import './components/Navbar.css'
+import PostList from './components/PostList'
 import ThemeToggle from './components/Theme'
 
 function App() {
@@ -10,7 +13,10 @@ function App() {
     <>
     <Navbar />
     <Counter />
+    <LogOnMount />
+    <NameForm />
     <ThemeToggle />
+    <PostList />
     <Footer />
     
     </>
@@ -20,4 +26,3 @@ function App() {
 export default App
 
 
-// UseState
